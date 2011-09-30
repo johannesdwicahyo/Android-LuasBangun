@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.capcay.luasBangun"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".LuasBangunActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="HitungPersegiPanjang" android:label="Persegi Panjang">
+	        </activity>
+	    <activity android:name="HitungSegitiga" android:label="Segitiga">
+	        </activity>
+	    <activity android:name="HitungLingkaran" android:label="Lingkaran">
+	        </activity>
+    </application>
+</manifest>
